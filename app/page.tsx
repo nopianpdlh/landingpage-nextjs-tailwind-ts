@@ -225,6 +225,88 @@ export default function Home() {
           See All Testimonies
         </button>
       </section>
+      {/* footer  */}
+      <section
+        className="px-6 max-w-5xl mx-auto sm:grid sm:grid-cols-2 md:grid-cols-3 lg:flex lg:justify-between bg-top bg-no-repeat pb-10 text-gray-500"
+        style={{ backgroundImage: 'url("img/footer.jpg")' }}
+      >
+        <div className="mb-4">
+          <Image src={logo} alt="" className="w-32" />
+          <p className="mt-5">
+            halo@flare.com
+            <br />
+            (0274)433221
+          </p>
+        </div>
+        <div className="mb-4">
+          <h4 className="font-bold text-xl mb-4">About Us</h4>
+          <ul className="space-y-2">
+            <li>
+              <a href="">Support Center</a>
+            </li>
+            <li>
+              <a href="">Customer Support</a>
+            </li>
+            <li>
+              <a href="">About Us</a>
+            </li>
+            <li>
+              <a href="">History</a>
+            </li>
+          </ul>
+        </div>
+        <div className="mb-4">
+          <h4 className="font-bold text-xl mb-4">Resource</h4>
+          <ul className="space-y-2">
+            <li>
+              <a href="">Support Center</a>
+            </li>
+            <li>
+              <a href="">Customer Support</a>
+            </li>
+            <li>
+              <a href="">About Us</a>
+            </li>
+            <li>
+              <a href="">History</a>
+            </li>
+          </ul>
+        </div>
+        <div className="mb-4">
+          <h4 className="font-bold text-xl mb-4">Company</h4>
+          <ul className="space-y-2">
+            <li>
+              <a href="">Support Center</a>
+            </li>
+            <li>
+              <a href="">Customer Support</a>
+            </li>
+            <li>
+              <a href="">About Us</a>
+            </li>
+            <li>
+              <a href="">History</a>
+            </li>
+          </ul>
+        </div>
+        <div className="mb-4">
+          <h4 className="font-bold text-xl mb-4">Privacy Policy</h4>
+          <ul className="space-y-2">
+            <li>
+              <a href="">Support Center</a>
+            </li>
+            <li>
+              <a href="">Customer Support</a>
+            </li>
+            <li>
+              <a href="">About Us</a>
+            </li>
+            <li>
+              <a href="">History</a>
+            </li>
+          </ul>
+        </div>
+      </section>
     </>
   );
 }
